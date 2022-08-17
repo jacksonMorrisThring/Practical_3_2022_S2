@@ -1,4 +1,4 @@
-#include "function-2-2.cpp"
+extern int max_sub_sum(int *nums,int length);
 
 int main(){
     int length = 5;
