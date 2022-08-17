@@ -2,8 +2,6 @@
 
 int max_sub_sum(int *nums,int length){
     int max_sub = 0;
-    int index1 = 0;
-    int index2 = 0;
     int temp = 0;
     
     for(int i = 0; i < length; i++){
@@ -17,8 +15,6 @@ int max_sub_sum(int *nums,int length){
             
             if (temp > max_sub){
                 max_sub = temp;
-                index1 = i;
-                index2 = j;
             }
         }
     }
