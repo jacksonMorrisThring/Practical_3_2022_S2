@@ -10,7 +10,7 @@ int main(){
 
     std::string array2[3][2];
 
-    string_2d_copy(array1, array2, 3);
+    // string_2d_copy(array1, array2, 3);
 
     return 0;
 }
