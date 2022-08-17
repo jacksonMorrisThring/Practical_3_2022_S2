@@ -1,4 +1,4 @@
-#include "function-2-1.cpp"
+extern void multiples_of_seven(int* nums,int length);
 
 int main(){
     int array[] = {1,2,3,4,7};

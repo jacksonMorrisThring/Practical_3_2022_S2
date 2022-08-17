@@ -1,4 +1,4 @@
-#include "function-1-3.cpp"
+extern void copy_integers(int old_array[],int new_array[],int length);
 
 int main(){
     int length = 5;

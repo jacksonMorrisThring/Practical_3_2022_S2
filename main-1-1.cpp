@@ -1,4 +1,4 @@
-#include "function-1-1.cpp"
+extern void string_2d_copy(std::string first[][2], std::string second[][2], int n);
 #include <iostream>
 
 int main(){

@@ -1,4 +1,4 @@
-#include "function-1-4.cpp"
+extern void copy_doubles(double *old_array,double *new_array,int length);
 
 int main(){
     int length = 5;
