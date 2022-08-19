@@ -6,12 +6,12 @@ int max_sub_sum(int *nums,int length){
     int index1;
     int index2;
     
-    std::cout << "\nLength: " << length << std::endl;
+    // std::cout << "\nLength: " << length << std::endl;
     for(int i = 0; i < length; i++){
         int sum = 0;
-        std::cout << std::endl;
+        // std::cout << std::endl;
         for(int j = i + 1; j < length; j++){
-            std::cout << "Value of i: " << i << "   Value of j: " << j << std::endl; 
+            // std::cout << "Value of i: " << i << "   Value of j: " << j << std::endl; 
             if(j == i + 1){
                 index1 = i;
                 index2 = j;
@@ -35,7 +35,7 @@ int max_sub_sum(int *nums,int length){
         }
     }
 
-    std::cout << "Max sub array has value " << max_sub << std::endl;
+    // std::cout << "Max sub array has value " << max_sub << std::endl;
     // std::cout << "Max sub array lies between indexes " << index1 << " and " << index2 << std::endl;
 
     if(max_sub < 0){
