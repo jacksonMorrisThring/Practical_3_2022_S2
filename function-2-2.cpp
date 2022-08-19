@@ -9,9 +9,13 @@ int max_sub_sum(int *nums,int length){
     // std::cout << "\nLength: " << length << std::endl;
     for(int i = 0; i < length; i++){
         int sum = 0;
-        // std::cout << std::endl;
+        sum = *(nums + i);
+        if (sum > max_sub){
+            max_sub = sum;
+        }
         for(int j = i + 1; j < length; j++){
-            // std::cout << "Value of i: " << i << "   Value of j: " << j << std::endl; 
+            // std::cout << "Value of i: " << i << "   Value of j: " << j << std::endl;
+
             if(j == i + 1){
                 index1 = i;
                 index2 = j;
